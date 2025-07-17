@@ -1,0 +1,401 @@
+Rank,Players,Total_FPTS,Average_FPTS
+1,Ja'Marr ChaseCinWR,353.0,20.8
+2,Bijan RobinsonAtlRB,334.8,19.7
+3,Justin JeffersonMinWR,322.0,18.9
+4,Saquon BarkleyPhiRB,324.4,19.1
+5,Jahmyr GibbsDetRB,317.8,18.7
+6,CeeDee LambDalWR,314.7,18.5
+7,Puka NacuaLARWR,321.1,18.9
+8,Christian McCaffreySFRB,321.6,18.9
+9,Ashton JeantyLVRB,300.3,17.7
+10,Amon-Ra St. BrownDetWR,289.0,17.0
+11,Malik NabersNYGWR,299.8,17.6
+12,De'Von AchaneMiaRB,305.0,17.9
+13,Jonathan TaylorIndRB,296.6,17.4
+14,Nico CollinsHouWR,277.7,16.3
+15,Derrick HenryBalRB,280.9,16.5
+16,Brian Thomas Jr.JaxWR,270.5,15.9
+17,A.J. BrownPhiWR,275.3,16.2
+18,Josh JacobsGBRB,281.8,16.6
+19,Bucky IrvingTBRB,281.5,16.6
+20,Brock BowersLVTE,257.1,15.1
+21,Kyren WilliamsLARRB,278.9,16.4
+22,Drake LondonAtlWR,266.6,15.7
+23,James CookBufRB,268.2,15.8
+24,Tee HigginsCinWR,265.0,15.6
+25,Ladd McConkeyLACWR,261.8,15.4
+26,Trey McBrideAriTE,259.5,15.3
+27,Joe MixonHouRB,255.0,15.0
+28,Tyreek HillMiaWR,262.6,15.4
+29,Josh AllenBufQB,364.9,21.5
+30,Davante AdamsLARWR,256.6,15.1
+31,Chase BrownCinRB,261.4,15.4
+32,Lamar JacksonBalQB,362.7,21.3
+33,Kenneth Walker IIIQSeaRB,264.4,15.6
+34,Jayden DanielsWshQB,367.1,21.6
+35,Terry McLaurinWshWR,247.7,14.6
+36,Breece HallNYJRB,233.0,13.7
+37,Jaxon Smith-NjigbaSeaWR,244.7,14.4
+38,Omarion HamptonLACRB,240.1,14.1
+39,Rashee RiceKCWR,250.8,14.8
+40,Jalen HurtsPhiQB,363.6,21.4
+41,DJ MooreChiWR,237.8,14.0
+42,Marvin Harrison Jr.AriWR,240.2,14.1
+43,Mike EvansTBWR,238.7,14.0
+44,Alvin KamaraNORB,264.7,15.6
+45,Garrett WilsonNYJWR,240.9,14.2
+46,George KittleSFTE,226.6,13.3
+47,James ConnerAriRB,261.6,15.4
+48,Chuba HubbardCarRB,258.4,15.2
+49,Xavier WorthyKCWR,229.5,13.5
+50,Joe BurrowCinQB,328.6,19.3
+51,RJ HarveyDenRB,219.2,12.9
+52,Quinshon JudkinsCleRB,223.9,13.2
+53,DK MetcalfPitWR,240.1,14.1
+54,David MontgomeryDetRB,214.1,12.6
+55,Courtland SuttonDenWR,227.6,13.4
+56,Sam LaPortaDetTE,190.7,11.2
+57,DeVonta SmithPhiWR,222.7,13.1
+58,D'Andre SwiftChiRB,224.7,13.2
+59,Zay FlowersBalWR,232.2,13.7
+60,George PickensDalWR,219.4,12.9
+61,Jaylen WaddleMiaWR,225.6,13.3
+62,Aaron Jones Sr.MinRB,219.7,12.9
+63,Rome OdunzeChiWR,216.9,12.8
+64,Tony PollardTenRB,219.3,12.9
+65,T.J. HockensonMinTE,183.6,10.8
+66,Calvin RidleyTenWR,230.1,13.5
+67,Kaleb JohnsonPitRB,217.3,12.8
+68,Jameson WilliamsDetWR,217.6,12.8
+69,Travis HunterJaxWR,213.0,12.5
+70,TreVeyon HendersonNERB,206.0,12.1
+71,Jerry JeudyCleWR,227.6,13.4
+72,Tetairoa McMillanQCarWR,212.4,12.5
+73,Travis KelceKCTE,171.9,10.1
+74,Patrick MahomesKCQB,322.9,19.0
+75,Matthew GoldenGBWR,205.3,12.1
+76,Isiah PachecoKCRB,208.8,12.3
+77,Chris OlaveNOWR,205.7,12.1
+78,Jordan AddisonMinWR,215.6,12.7
+79,Javonte WilliamsDalRB,211.5,12.4
+80,Cooper KuppSeaWR,205.7,12.1
+81,Rhamondre StevensonNERB,183.9,10.8
+82,Jaylen WarrenPitRB,194.9,11.5
+83,David NjokuCleTE,172.8,10.2
+84,Jauan JenningsSFWR,209.6,12.3
+85,Cam SkatteboNYGRB,155.2,9.1
+86,Deebo Samuel Sr.WshWR,201.6,11.9
+87,Khalil ShakirBufWR,206.6,12.2
+88,Bo NixDenQB,300.4,17.7
+89,Mark AndrewsBalTE,170.9,10.1
+90,Tyrone Tracy Jr.NYGRB,197.1,11.6
+91,Stefon DiggsNEWR,165.6,11.8
+92,Chris GodwinTBWR,190.8,14.7
+93,Baker MayfieldTBQB,309.1,18.2
+94,Jakobi MeyersLVWR,215.2,12.7
+95,Austin EkelerWshRB,172.2,10.1
+96,Keon ColemanBufWR,191.2,11.2
+97,Brian Robinson Jr.WshRB,200.6,11.8
+98,Ricky PearsallSFWR,192.8,11.3
+99,Evan EngramDenTE,168.6,9.9
+100,Travis Etienne Jr.JaxRB,155.3,9.1
+101,Michael Pittman Jr.IndWR,183.1,10.8
+102,Zach CharbonnetSeaRB,112.9,6.6
+103,Kyler MurrayAriQB,306.3,18.0
+104,Jayden ReedGBWR,181.1,10.7
+105,Tyjae SpearsTenRB,148.0,8.7
+106,Brock PurdySFQB,306.9,18.1
+107,Darnell MooneyAtlWR,170.5,10.0
+108,Rachaad WhiteTBRB,129.5,7.6
+109,Tank BigsbyJaxRB,130.4,7.7
+110,Caleb WilliamsChiQB,279.3,16.4
+111,Jayden HigginsHouWR,166.1,9.8
+112,Jonnu SmithPitTE,135.0,7.9
+113,Najee HarrisLACRB,118.1,6.9
+114,Bhayshul TutenJaxRB,63.7,3.7
+115,Colston LovelandChiTE,155.3,9.1
+116,Jack BechLVWR,148.6,8.7
+117,Rashid ShaheedNOWR,183.7,10.8
+118,Emeka EgbukaTBWR,142.8,8.4
+119,Jaydon BlueDalRB,79.4,4.7
+120,Jordan MasonMinRB,118.7,7.0
+121,Justin HerbertLACQB,284.0,16.7
+122,Tyler AllgeierAtlRB,97.3,5.7
+123,Isaac GuerendoSFRB,87.0,5.1
+124,Hollywood BrownKCWR,147.4,8.7
+125,Justin FieldsNYJQB,296.7,17.5
+126,Xavier LegetteCarWR,154.6,9.1
+127,Adam ThielenCarWR,166.9,9.8
+128,Trey BensonAriRB,113.4,6.7
+129,Ray DavisBufRB,81.0,4.8
+130,Dalton KincaidBufTE,147.2,8.7
+131,Roschon JohnsonChiRB,103.6,6.1
+132,TexansHouDST,133.0,7.8
+133,BroncosDenDST,123.0,7.2
+134,Tyler WarrenIndTE,145.7,8.6
+135,Marvin Mims Jr.DenWR,149.2,8.8
+136,Tucker KraftGBTE,160.5,9.4
+137,Luther Burden IIIChiWR,116.2,6.8
+138,Brandon AiyukSFWR,84.5,9.4
+139,SteelersPitDST,131.6,7.7
+140,Jake BatesDetK,144.9,8.5
+141,Brandon AubreyDalK,142.0,8.4
+142,Tre HarrisLACWR,146.8,8.6
+143,LionsDetDST,122.8,7.2
+144,PatriotsNEDST,116.5,6.9
+145,Kyle WilliamsNEWR,127.9,7.5
+146,Drake MayeNEQB,273.8,16.1
+147,Josh DownsIndWR,163.7,9.6
+148,VikingsMinDST,121.5,7.1
+149,Dak PrescottDalQB,284.3,16.7
+150,RavensBalDST,119.2,7.0
+151,Cedric TillmanCleWR,163.1,9.6
+152,Cameron DickerLACK,143.4,8.4
+153,Chase McLaughlinTBK,146.0,8.6
+154,Dallas GoedertPhiTE,156.7,9.2
+155,Kareem HuntKCRB,108.3,6.4
+156,SeahawksSeaDST,119.4,7.0
+157,Blake CorumLARRB,52.4,3.1
+158,EaglesPhiDST,97.3,5.7
+159,Tyler BassBufK,141.1,8.3
+160,CardinalsAriDST,98.5,5.8
+161,Wan'Dale RobinsonNYGWR,152.0,8.9
+162,Jake ElliottPhiK,141.0,8.3
+163,Jason SandersMiaK,140.5,8.3
+164,Rashod BatemanBalWR,133.6,7.9
+165,Christian KirkHouWR,110.5,6.5
+166,Tyler LoopBalK,139.9,8.2
+167,JetsNYJDST,96.0,5.6
+168,MarShawn LloydGBRB,86.7,5.1
+169,Woody MarksHouRB,36.4,2.1
+170,Pat FreiermuthPitTE,133.8,7.9
+171,Chris BoswellPitK,138.3,8.1
+172,J.J. McCarthyMinQB,281.8,16.6
+173,C.J. StroudHouQB,272.0,16.0
+174,Jordan LoveGBQB,261.5,15.4
+175,Pat BryantDenWR,95.6,5.6
+176,Jaleel McLaughlinDenRB,15.6,0.9
+177,BillsBufDST,104.9,6.2
+178,Ka'imi FairbairnHouK,137.0,8.1
+179,Jalen McMillanTBWR,98.3,5.8
+180,Joshua KartyLARK,137.2,8.1
+181,49ersSFDST,72.6,4.3
+182,Braelon AllenNYJRB,83.8,4.9
+183,Anthony Richardson Sr.IndQB,180.7,18.1
+184,Brenton StrangeJaxTE,139.7,8.2
+185,Harrison ButkerKCK,138.5,8.1
+186,PackersGBDST,84.3,5.0
+187,Cairo SantosChiK,139.3,8.2
+188,Nick ChubbHouRB,92.2,5.4
+189,Daniel CarlsonLVK,130.1,7.7
+190,DolphinsMiaDST,73.4,4.3
+191,Matt GayWshK,139.7,8.2
+192,Justice HillBalRB,114.2,6.7
+193,Brandon McManusGBK,135.5,8.0
+194,Isaiah LikelyBalTE,112.7,6.6
+195,J.K. DobbinsDenRB,155.4,9.1
+196,Jake FergusonDalTE,149.0,8.8
+197,Jared GoffDetQB,259.9,15.3
+198,Hunter HenryNETE,148.6,8.7
+199,Chig OkonkwoTenTE,144.4,8.5
+200,Tua TagovailoaMiaQB,274.2,16.1
+201,Matthew StaffordLARQB,274.6,16.2
+202,Zach ErtzWshTE,140.6,8.3
+203,Michael WilsonAriWR,115.9,6.8
+204,Mike WilliamsLACWR,118.4,7.0
+205,Jaylen WrightMiaRB,72.9,4.3
+206,Will ShipleyPhiRB,56.6,3.3
+207,Quentin JohnstonLACWR,102.7,6.0
+208,Kyle PittsAtlTE,142.1,8.4
+209,Darren WallerMiaTE,144.1,8.5
+210,ColtsIndDST,107.5,6.3
+211,Romeo DoubsGBWR,130.2,7.7
+212,Zack MossCinRB,68.2,4.0
+213,Trevor LawrenceJaxQB,278.2,16.4
+214,Cameron WardTenQB,254.5,15.0
+215,Michael Penix Jr.AtlQB,249.8,14.7
+216,Tyler LockettTenWR,117.4,6.9
+217,DeMario DouglasNEWR,117.4,6.9
+218,Nick Westbrook-IkhineMiaWR,119.9,7.1
+219,Joshua PalmerBufWR,76.4,4.5
+220,Diontae JohnsonCleWR,107.4,6.3
+221,Mike GesickiCinTE,137.1,8.1
+222,Brandin CooksNOWR,108.0,6.4
+223,Darius SlaytonNYGWR,114.6,6.7
+224,DeAndre HopkinsBalWR,86.4,5.1
+225,Adonai MitchellIndWR,78.3,4.6
+226,Kendre MillerNORB,81.1,4.8
+227,Cade OttonTBTE,139.8,8.2
+228,Dalton SchultzHouTE,121.4,7.1
+229,Bryce YoungCarQB,264.3,15.5
+230,Geno SmithLVQB,257.6,15.2
+231,Jerome FordCleRB,73.0,4.3
+232,Dylan SampsonCleRB,45.6,2.7
+233,Rico DowdleCarRB,83.7,4.9
+234,Keenan AllenFAWR,0,0
+235,Alexander MattisonMiaRB,47.0,2.8
+236,Raheem MostertLVRB,46.3,2.7
+237,Amari CooperFAWR,0,0
+238,Christian WatsonGBWR,39.8,5.0
+239,Andrei IosivasCinWR,81.8,4.8
+240,Allen LazardNYJWR,88.4,5.2
+241,Calvin Austin IIIPitWR,89.4,5.3
+242,Alec PierceIndWR,72.6,4.3
+243,Jaylin NoelHouWR,65.2,3.8
+244,Ray-Ray McCloud IIIAtlWR,108.6,6.4
+245,GiantsNYGDST,108.5,6.4
+246,Miles SandersDalRB,44.2,2.6
+247,DJ GiddensIndRB,19.5,1.1
+248,Trevor EtienneCarRB,21.7,1.3
+249,Jarquez HunterLARRB,26.8,1.6
+250,Sincere McCormickLVRB,21.8,1.3
+251,Antonio GibsonNERB,10.2,0.6
+252,Devin SingletaryNYGRB,10.9,0.6
+253,Ty JohnsonBufRB,54.5,3.2
+254,Samaje PerineCinRB,31.6,1.9
+255,Elijah MitchellKCRB,29.9,1.8
+256,Sean TuckerTBRB,28.1,1.7
+257,Clyde Edwards-HelaireNORB,28.1,1.7
+258,Tutu AtwellLARWR,95.3,5.6
+259,Jalen CokerCarWR,73.4,4.3
+260,BuccaneersTBDST,104.2,6.1
+261,Evan McPhersonCinK,136.0,8.0
+262,Mason TaylorNYJTE,122.2,7.2
+263,Tyler HigbeeLARTE,124.0,7.3
+264,Theo JohnsonNYGTE,121.5,7.1
+265,Gabe DavisFAWR,0,0
+266,Dyami BrownJaxWR,107.5,6.3
+267,Jalen TolbertDalWR,69.7,4.1
+268,Josh ReynoldsNYJWR,103.6,6.1
+269,Cordarrelle PattersonPitRB,27.6,1.6
+270,Kyle JuszczykSFRB,27.1,1.6
+271,Sam DarnoldSeaQB,245.8,14.5
+272,Aaron RodgersPitQB,231.4,13.6
+273,Russell WilsonNYGQB,120.0,15.0
+274,Tyler ShoughNOQB,151.2,13.7
+275,Noah BrownWshWR,76.8,4.5
+276,KaVontae TurpinDalWR,71.4,4.2
+277,Malik WashingtonMiaWR,45.3,2.7
+278,Tre TuckerLVWR,62.3,3.7
+279,Van JeffersonTenWR,61.6,3.6
+280,Emari DemercadoAriRB,26.9,1.6
+281,Kyle MonangaiChiRB,25.4,1.5
+282,Devin NealNORB,23.2,1.4
+283,Alec IngoldMiaRB,22.3,1.3
+284,Keaton MitchellBalRB,21.4,1.3
+285,Dare OgunbowaleHouRB,21.0,1.2
+286,Jordan JamesSFRB,20.4,1.2
+287,Isaiah DavisNYJRB,18.2,1.1
+288,Greg DortchAriWR,59.7,3.5
+289,ChiefsKCDST,96.7,5.7
+290,Jason MyersSeaK,135.1,7.9
+291,Wil LutzDenK,134.4,7.9
+292,Noah FantSeaTE,116.5,6.9
+293,Juwan JohnsonNOTE,113.2,6.7
+294,Ja'Tavion SandersCarTE,101.3,6.0
+295,Elijah ArroyoSeaTE,82.1,4.8
+296,Jordan WhittingtonLARWR,58.8,3.5
+297,Marquez Valdes-ScantlingSeaWR,57.7,3.4
+298,Daniel JonesIndQB,108.7,15.5
+299,BearsChiDST,90.9,5.3
+300,RamsLARDST,84.2,5.0
+301,ChargersLACDST,68.2,4.0
+302,Jaxson DartNYGQB,130.5,14.5
+303,Dillon GabrielCleQB,73.1,14.6
+304,Emanuel WilsonGBRB,15.9,0.9
+305,Kenneth GainwellPitRB,12.8,0.8
+306,Hunter LuepkeDalRB,12.3,0.7
+307,Tyler GoodsonIndRB,10.7,0.6
+308,Chris BrooksGBRB,10.3,0.6
+309,Jeremy McNicholsWshRB,9.7,0.6
+310,AJ DillonPhiRB,9.6,0.6
+311,Shedeur SandersCleQB,55.4,13.8
+312,Tyler ConklinLACTE,81.7,4.8
+313,Michael MayerLVTE,71.6,4.2
+314,Ben SinnottWshTE,56.2,3.3
+315,Terrance FergusonLARTE,49.3,2.9
+316,Kenny PickettCleQB,105.1,13.1
+317,Joe FlaccoCleQB,0.0,0
+318,Mason RudolphPitQB,2.2,0.1
+319,Spencer RattlerNOQB,87.2,14.5
+320,Kirk CousinsAtlQB,2.4,0.1
+321,Carlos Washington Jr.AtlRB,9.6,0.6
+322,C.J. HamMinRB,9.2,0.5
+323,Tahj BrooksCinRB,8.8,0.5
+324,Will DisslyLACTE,73.7,4.3
+325,Noah GrayKCTE,66.7,3.9
+326,Dawson KnoxBufTE,47.1,2.8
+327,Cole KmetChiTE,44.2,2.6
+328,Austin HooperNETE,62.0,3.6
+329,Harold Fannin Jr.CleTE,43.8,2.6
+330,Luke MusgraveGBTE,34.4,2.0
+331,Foster MoreauNOTE,64.0,3.8
+332,Tommy TrembleCarTE,50.9,3.0
+333,Josh OliverMinTE,40.7,2.4
+334,Cade StoverHouTE,36.4,2.1
+335,Elijah HigginsAriTE,35.9,2.1
+336,Jalen MilroeSeaQB,0.0,0
+337,Tyrod TaylorNYJQB,2.1,0.1
+338,Gardner MinshewKCQB,2.7,0.2
+339,Jameis WinstonNYGQB,0.0,0
+340,Will LevisTenQB,2.3,0.1
+341,Jake BrowningCinQB,2.9,0.2
+342,Jimmy GaroppoloLARQB,2.7,0.2
+343,Marcus MariotaWshQB,2.7,0.2
+344,Sam HowellMinQB,2.6,0.2
+345,Joe Milton IIIDalQB,2.6,0.2
+346,Cam LittleJaxK,133.9,7.9
+347,Will ReichardMinK,132.8,7.8
+348,Spencer ShraderIndK,131.4,7.7
+349,Matthew WrightCarK,131.1,7.7
+350,Chad RylandAriK,127.9,7.5
+351,Younghoe KooAtlK,127.7,7.5
+352,Andy BorregalesNEK,127.3,7.5
+353,Jake MoodySFK,126.0,7.4
+354,Blake GrupeNOK,125.8,7.4
+355,Joey SlyeTenK,124.7,7.3
+356,Graham GanoNYGK,124.4,7.3
+357,Caden DavisNYJK,123.5,7.3
+358,Dustin HopkinsCleK,118.5,7.0
+359,RaidersLVDST,89.5,5.3
+360,JaguarsJaxDST,80.2,4.7
+361,CowboysDalDST,74.8,4.4
+362,BrownsCleDST,68.5,4.0
+363,TitansTenDST,65.7,3.9
+364,FalconsAtlDST,65.4,3.8
+365,SaintsNODST,70.6,4.2
+366,PanthersCarDST,57.4,3.4
+367,CommandersWshDST,56.3,3.3
+368,BengalsCinDST,54.6,3.2
+369,Demarcus RobinsonSFWR,56.2,3.3
+370,Curtis SamuelBufWR,55.0,3.2
+371,Parker WashingtonJaxWR,52.9,3.1
+372,Elic AyomanorTenWR,52.2,3.1
+373,Tim PatrickDetWR,49.1,2.9
+374,Robert WoodsPitWR,47.1,2.8
+375,Scott MatlockLACRB,8.0,0.5
+376,Chimere DikeTenWR,45.4,2.7
+377,Elijah MooreBufWR,45.2,2.7
+378,Troy FranklinDenWR,45.2,2.7
+379,Mack HollinsNEWR,43.3,2.5
+380,Roman WilsonPitWR,43.1,2.5
+381,Jaylin LaneWshWR,40.4,2.4
+382,Jalen NailorMinWR,40.4,2.4
+383,Jermaine BurtonCinWR,39.3,2.3
+384,Luke McCaffreyWshWR,37.8,2.2
+385,Devaughn VeleDenWR,37.4,2.2
+386,Dont'e Thornton Jr.LVWR,37.2,2.2
+387,Josh WhyleTenTE,35.8,2.1
+388,Drew SampleCinTE,30.5,1.8
+389,Tanner HudsonCinTE,30.2,1.8
+390,Zay JonesAriWR,30.1,1.8
+391,Julian HillMiaTE,30.0,1.8
+392,Adam TrautmanDenTE,29.4,1.7
+393,Luke SchoonmakerDalTE,29.0,1.7
+394,Tai FeltonMinWR,28.2,1.7
+395,Oronde Gadsden IILACTE,28.2,1.7
+396,Kendrick BourneNEWR,27.4,1.6
+397,Kalif RaymondDetWR,27.1,1.6
+398,Gunnar HelmTenTE,27.0,1.6
+399,KhaDarel HodgeAtlWR,26.1,1.5
+400,Jahan DotsonPhiWR,25.8,1.5
