@@ -379,7 +379,7 @@ def main():
                          num_players=12, 
                          draft_style="snake", 
                          num_rounds=16, 
-                         initial_pick=1, 
+                         initial_pick=12, 
                          exploration_constant = 2, 
                          mcts_time_limit= 30)
     draft.run_draft()

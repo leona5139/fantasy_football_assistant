@@ -178,7 +178,7 @@ class DraftEnv():
 
 def main():
     player_pool = pd.read_csv("./project/data/cleaned_data.csv")
-    draft = DraftEnv(player_pool, 12, "snake", 16, 1)
+    draft = DraftEnv(player_pool, 12, "snake", 16, 12)
     draft.draft()
 
 if __name__ == "__main__":

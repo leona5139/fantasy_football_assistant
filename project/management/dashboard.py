@@ -96,7 +96,7 @@ if df is not None:
         "playoff_favored_flag": "strong playoff schedule"
     })
 
-    render(df, avoid_neutral)
+    render(filtered_data, avoid_neutral)
 
 else:
     st.warning(f"Waiver - Week {int(week)}")

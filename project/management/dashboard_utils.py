@@ -7,7 +7,7 @@ def render(df, avoid_neutral=False):
         return any(int(row[col]) in [-1, 1] for col in tag_columns)
     
     if avoid_neutral:
-        filtered_data = filtered_data[filtered_data.apply(has_tag, axis=1)].reset_index(drop=True)
+        df = df[df.apply(has_tag, axis=1)].reset_index(drop=True)
 
     def render_tag(name, value):
         color = {
