@@ -1,4 +1,5 @@
 .venv/
+project/playoff_odds_calculator/*.csv
 
 # OS generated files #
 ######################
