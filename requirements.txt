@@ -1,0 +1,14 @@
+# Requires Python >= 3.12 (project/draft/mcts.py uses PEP 701 nested-quote f-strings)
+pandas>=2.2.3
+numpy>=2.1
+requests>=2.31
+streamlit>=1.35
+pytest>=8.0
+
+# nfl_data_py is used by project/management/data_generation.py (Phase 1, untouched by
+# this milestone) but is NOT listed here: the latest release (0.3.3) hard-pins
+# numpy<2.0,pandas<2.0, which has no prebuilt wheel for Python >=3.13 and no compiler
+# is available in this environment to build it from source. Its README confirms it has
+# no projections/ADP endpoint anyway (only historical/actuals + schedule data), so it's
+# not needed for live_rankings.py. Install it in a separate, older-Python environment
+# if/when Phase 1 work on data_generation.py resumes.

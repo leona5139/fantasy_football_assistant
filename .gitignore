@@ -1,5 +1,9 @@
 .venv/
 project/playoff_odds_calculator/*.csv
+project/data/live_rankings_cache.csv
+__pycache__/
+*.pyc
+.pytest_cache/
 
 # OS generated files #
 ######################
