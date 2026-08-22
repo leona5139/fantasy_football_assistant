@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fantasy Draft Assistant</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<section id="setup-screen">
+  <h1>Fantasy Draft Assistant</h1>
+  <form id="setup-form">
+    <div class="field-row">
+      <label for="num_teams">Number of teams</label>
+      <input type="number" id="num_teams" min="2" max="20" value="10" required>
+    </div>
+    <div class="field-row">
+      <label for="scoring">Scoring</label>
+      <select id="scoring">
+        <option value="ppr" selected>PPR</option>
+        <option value="half_ppr">Half PPR</option>
+        <option value="standard">Standard</option>
+      </select>
+    </div>
+    <div class="field-row">
+      <label for="draft_style">Draft style</label>
+      <select id="draft_style">
+        <option value="snake" selected>Snake</option>
+        <option value="regular">Regular</option>
+      </select>
+    </div>
+    <div class="field-row">
+      <label for="initial_pick">Your draft slot</label>
+      <input type="number" id="initial_pick" min="1" max="20" value="1" required>
+    </div>
+
+    <details id="advanced">
+      <summary>Advanced (roster slots)</summary>
+      <div id="roster-slots-fields" class="field-row roster-grid"></div>
+      <div class="field-row">
+        <label for="bench_slots">Bench slots</label>
+        <input type="number" id="bench_slots" min="0" max="20" value="7">
+      </div>
+    </details>
+
+    <div id="setup-error" class="error" hidden></div>
+    <button type="submit" id="setup-submit">Start Draft</button>
+  </form>
+</section>
+
+<section id="draft-board" hidden>
+  <header id="turn-banner"></header>
+
+  <div class="board-grid">
+    <div class="col col-search">
+      <h2>Search Players</h2>
+      <input type="text" id="player-search" placeholder="Type a player name...">
+      <ul id="search-results"></ul>
+      <div id="selected-player" hidden>
+        <span id="selected-player-name"></span>
+        <button id="draft-selected-btn">Draft this player</button>
+      </div>
+
+      <h2>Positional Scarcity</h2>
+      <div id="scarcity-badges"></div>
+    </div>
+
+    <div class="col col-recommend">
+      <h2>Greedy Recommendation</h2>
+      <div id="greedy-panel"></div>
+
+      <button id="think-harder-btn">Think Harder (MCTS, ~15s)</button>
+      <div id="mcts-panel"></div>
+    </div>
+
+    <div class="col col-roster">
+      <h2>Our Roster <span id="roster-value"></span></h2>
+      <ul id="our-roster"></ul>
+
+      <h2>Draft Log</h2>
+      <button id="undo-btn">Undo Last Pick</button>
+      <ul id="draft-log"></ul>
+    </div>
+  </div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>

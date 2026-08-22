@@ -4,6 +4,10 @@ numpy>=2.1
 requests>=2.31
 streamlit>=1.35
 pytest>=8.0
+fastapi>=0.115
+uvicorn[standard]>=0.30
+httpx>=0.27
+pyinstaller>=6.10
 
 # nfl_data_py is used by project/management/data_generation.py (Phase 1, untouched by
 # this milestone) but is NOT listed here: the latest release (0.3.3) hard-pins

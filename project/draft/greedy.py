@@ -84,11 +84,15 @@ class GreedyDraftAssistant:
 
         return adjusted_value / cost
 
-    def get_top_candidates(self, player_pool, round_num, n=5):
+    def get_top_candidates(self, player_pool, round_num, n=5, explain=False):
         """Vectorized equivalent of scoring every row with get_draft_efficiency
         and taking the top n. Replaces the old iterrows() scan (O(n) full
         pandas passes instead of O(n) Python-level dict lookups per row, and
         a single groupby instead of re-filtering the pool inside the loop).
+
+        explain=True keeps the intermediate vorp/need_factor/scarcity_factor/
+        quality_factor columns (already computed below) instead of dropping
+        everything but the base 6 -- used by the webapp's reasoning display.
         """
         pool = player_pool.copy()
         adjustments = _adjustment_table_for_round(round_num)
@@ -112,6 +116,13 @@ class GreedyDraftAssistant:
 
         cost = need_factor * scarcity_factor * quality_factor
         pool["_efficiency"] = adjusted_value / cost
+
+        if explain:
+            pool["vorp"] = vorp
+            pool["need_factor"] = need_factor
+            pool["scarcity_factor"] = scarcity_factor
+            pool["quality_factor"] = quality_factor
+            return pool.nlargest(n, "_efficiency").drop(columns="_efficiency")
 
         return pool.nlargest(n, "_efficiency").drop(columns="_efficiency")
 

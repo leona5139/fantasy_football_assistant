@@ -16,6 +16,7 @@ static `cleaned_data.csv` snapshot as a last resort.
 
 import argparse
 import logging
+import sys
 from pathlib import Path
 
 import pandas as pd
@@ -23,7 +24,15 @@ import requests
 
 logger = logging.getLogger(__name__)
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
+# Inside a PyInstaller frozen bundle, __file__ resolves into the temp
+# extraction dir (sys._MEIPASS), not the original repo -- packaging/app.spec
+# bundles cleaned_data.csv at "project/data/cleaned_data.csv" relative to
+# that dir, matching the source-tree layout so this branch is the only
+# difference.
+if getattr(sys, "frozen", False):
+    REPO_ROOT = Path(sys._MEIPASS)
+else:
+    REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_STATIC_CSV = REPO_ROOT / "project" / "data" / "cleaned_data.csv"
 DEFAULT_CACHE_CSV = REPO_ROOT / "project" / "data" / "live_rankings_cache.csv"
 
