@@ -1,5 +1,11 @@
 name: Build macOS app
 
+# Apple Silicon only: GitHub retired the free macos-13 (Intel) hosted runner
+# in December 2025. Genuine x86_64 builds now require the paid "large"
+# runner tier (macos-15-large / macos-latest-large) -- skipped here by
+# explicit choice. Apple hasn't sold a new Intel Mac since 2021, so this
+# covers any Mac from roughly the last five years; see packaging/HANDOFF.md.
+
 on:
   push:
     branches: [main]
@@ -7,14 +13,7 @@ on:
 
 jobs:
   build:
-    strategy:
-      matrix:
-        include:
-          - os: macos-13
-            arch: intel
-          - os: macos-14
-            arch: arm64
-    runs-on: ${{ matrix.os }}
+    runs-on: macos-14
     steps:
       - uses: actions/checkout@v4
 
@@ -50,9 +49,9 @@ jobs:
       - name: Zip the app bundle
         run: |
           cd dist
-          zip -r "FantasyDraftAssistant-${{ matrix.os }}-${{ matrix.arch }}.zip" FantasyDraftAssistant.app
+          zip -r "FantasyDraftAssistant-macos-arm64.zip" FantasyDraftAssistant.app
 
       - uses: actions/upload-artifact@v4
         with:
-          name: FantasyDraftAssistant-${{ matrix.os }}-${{ matrix.arch }}
-          path: dist/FantasyDraftAssistant-${{ matrix.os }}-${{ matrix.arch }}.zip
+          name: FantasyDraftAssistant-macos-arm64
+          path: dist/FantasyDraftAssistant-macos-arm64.zip

@@ -1,13 +1,10 @@
 # Fantasy Draft Assistant — Setup Guide
 
-## 1. Which file to download
+## 1. Before you download: check your Mac
 
-You'll get one of two zip files, depending on your Mac:
+This build requires an **Apple Silicon Mac** (a chip named M1, M2, M3, M4, or later — anything Apple has sold since late 2020).
 
-- **`FantasyDraftAssistant-macos-14-arm64.zip`** — for Apple Silicon Macs (M1, M2, M3, M4...)
-- **`FantasyDraftAssistant-macos-13-intel.zip`** — for older Intel Macs
-
-**Not sure which you have?** Click the Apple menu (top-left corner) → **About This Mac**. If it says "Chip: Apple M__", get the `arm64` zip. If it says "Processor: Intel...", get the `intel` zip.
+Click the Apple menu (top-left corner) → **About This Mac**. If it says **"Chip: Apple M__"**, you're good — download `FantasyDraftAssistant-macos-arm64.zip`. If it says **"Processor: Intel..."**, this build won't run on your Mac — let me know and I'll put together an Intel build instead.
 
 ## 2. Install
 
